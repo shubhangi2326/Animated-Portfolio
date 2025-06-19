@@ -120,7 +120,7 @@ useGSAP(()=>{
                             <span>BRANCH</span> : CA
                         </li>
                         <li>
-                            <span>CGPA</span> : 8.2
+                            <span>CGPA</span> : 8.43
                         </li>
                     </ul>
                 </div>
@@ -131,10 +131,10 @@ useGSAP(()=>{
                            FULL STACK DEVELOPMENT
                         </li>
                         <li>
-                           DSA
+                           CORE JAVA
                         </li>
                         <li>
-                           JAVA
+                          DATABASE
                         </li>
                     </ul>
                 </div>
@@ -143,8 +143,8 @@ useGSAP(()=>{
         </div>
         <div className="rightabout">
             <Card title={"Mern Stack Web Development"} image={mern} />
-            <Card title={"JAVA"} image={java}/>
-            <Card title={"DSA"} image={dsa}/>
+            <Card title={"CORE JAVA"} image={java}/>
+            <Card title={"DATABASE"} image={dsa}/>
         </div>
     </div>
   )

@@ -2,9 +2,6 @@ import React from 'react'
 import Card from '../card/Card';
 import './Projects.css'
 import va from '../../assets/va.png'
-import fw from '../../assets/fw.png'
-import br from '../../assets/br.png'
-import cb from '../../assets/cb.png'
 import tti from '../../assets/tti.png'
 import ise from '../../assets/ise.png'
 import { useGSAP } from '@gsap/react';
@@ -46,13 +43,10 @@ const Projects = () => {
 
   return (
     <div id='project'>
-        <h1 className="para">2+ Years Experienced in Projects</h1>
+        <h1 className="para">1+ Years Experienced in Projects</h1>
         <div className="slider">
             <Card title={"VIRTUAL ASSISTANT"} image={va}/>
-            <Card title={"AI POWERED FITENESS WEBSITE"} image={fw} />
-            <Card title={"AI CHATBOT"} image={cb} />
             <Card title={"AI TEXT TO IMAGE"} image={tti} />
-            <Card title={"AI BACKGROUND REMOVER"} image={br} />
             <Card title={"IMAGE SEARCH ENGINE"} image={ise} />
         </div>
     </div>
